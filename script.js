@@ -32,7 +32,7 @@ async function fetchMovie(movieName) {
 
     // Create HTML structure to display movie data
     const movieHTML = `
-      <div class="card">
+      <div class="card ">
         <div class="card-body">
           <h3 class="card-title">${movie.Title} (${movie.Year})</h3>
           <img src="${movie.Poster !== 'N/A' ? movie.Poster : 'https://via.placeholder.com/300x400?text=No+Image'}" class="img-fluid mb-3" alt="Poster of ${movie.Title}">
